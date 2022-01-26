@@ -14,4 +14,8 @@ router.route("/").get(musicController.getAllSongs);
 
 router.route("/names").get(musicController.getAllSongNames);
 
+router.route("/:id").get(musicController.getSong);
+
+router.route("/images").get(musicController.getAllImages);
+
 module.exports = router;
