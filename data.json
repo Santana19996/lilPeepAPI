@@ -1,0 +1,73 @@
+[
+  {
+    "_id": "1",
+    "name": "Star Shopping",
+    "length": "2:22",
+    "img": "https://images.genius.com/332dadc049d5f059eff94c60221643a6.474x266x1.jpg",
+    "SongLink": "https://www.youtube.com/watch?v=qwzQPh7dW_4"
+  },
+
+  {
+    "_id": "2",
+    "name": "Lil Kennedy",
+    "length": "3:19",
+    "img": "https://external-preview.redd.it/QXS8SkJohlqzcSkmGl2zwQrI3wVFaUx0Qp8jolJFoss.jpg?auto=webp&s=2da2d9c71bff4ca76e7ffee43d94c2cd96b26626",
+    "SongLink": "https://www.youtube.com/watch?v=c_rMC5cC4Fk"
+  },
+
+  {
+    "_id": "3",
+    "name": "Live Forever",
+    "length": "2:22",
+    "img": "https://66.media.tumblr.com/ce9a315270cc25ce82498cfa0ae81190/tumblr_inline_piifjx34XF1s9on4d_540.jpg",
+    "SongLink": "https://www.youtube.com/watch?v=JtRcHPXclhE"
+  },
+
+  {
+    "_id": "4",
+    "name": "Fish Scale",
+    "length": "3:02",
+    "img": "https://i1.sndcdn.com/artworks-jtYQ0cpWejS2sypo-knyPow-t500x500.jpg",
+    "SongLink": "https://www.youtube.com/watch?v=gblumFp1BK8"
+  },
+
+  {
+    "_id": "5",
+    "name": "Lie to Me",
+    "length": "2:19",
+    "img": "https://media.pitchfork.com/photos/5beee1c468be377e960bc1a3/1:1/w_600/lil%20peep%20hellboy.jpg",
+    "SongLink": "https://www.youtube.com/watch?v=7UGEL_CiRQQ"
+  },
+
+  {
+    "_id": "6",
+    "name": "Spot Light",
+    "length": "2:59",
+    "img": "https://images.genius.com/332dadc049d5f059eff94c60221643a6.474x266x1.jpg",
+    "SongLink": "https://i.ytimg.com/vi/7R1N-8SoqcM/maxresdefault.jpg"
+  },
+
+  {
+    "_id": "7",
+    "name": "White Tee",
+    "length": "2:16",
+    "img": "https://images.genius.com/860e9c76e313457dad72c3427fdcc782.1000x1000x1.png",
+    "SongLink": "https://www.youtube.com/watch?v=fudsUhWAG_o"
+  },
+
+  {
+    "_id": "8",
+    "name": "Cobain",
+    "length": "2:12",
+    "img": "https://i.ytimg.com/vi/HX3CtTLcwJk/maxresdefault.jpg",
+    "SongLink": "https://www.youtube.com/watch?v=HX3CtTLcwJk"
+  },
+
+  {
+    "_id": "9",
+    "name": "We Think Too Much",
+    "length": "3:18",
+    "img": "https://i1.sndcdn.com/artworks-000637742329-7ltl2g-t500x500.jpg",
+    "SongLink": "https://www.youtube.com/watch?v=4-ojzoDAfvY"
+  }
+]
