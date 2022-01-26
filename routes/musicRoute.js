@@ -10,8 +10,8 @@ const songs = JSON.parse(
 
 const router = express.Router();
 
-// router.param("id", musicController.checkId);
-
 router.route("/").get(musicController.getAllSongs);
+
+router.route("/names").get(musicController.getAllSongNames);
 
 module.exports = router;

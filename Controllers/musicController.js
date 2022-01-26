@@ -25,3 +25,13 @@ exports.getAllSongs = (req, res) => {
     },
   });
 };
+
+exports.getAllSongNames = (req, res) => {
+  const songNames = songs.map((song) => song.name);
+  res.status(200).json({
+    status: "Success",
+    data: {
+      songNames: songNames,
+    },
+  });
+};
