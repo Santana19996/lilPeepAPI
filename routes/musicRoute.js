@@ -4,7 +4,10 @@ const musicController = require("/Users/oscarsantana/LilPeepAPI/Controllers/musi
 
 const router = express.Router();
 
-router.route("/").get(musicController.getAllSongs);
+router
+  .route("/")
+  .get(musicController.getAllSongs)
+  .post(musicController.createSong);
 
 // router.route("/names").get(musicController.getAllSongNames);
 

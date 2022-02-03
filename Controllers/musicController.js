@@ -18,27 +18,34 @@ exports.getAllSongs = async (req, res) => {
   }
 };
 
-// exports.getAllSongNames = (req, res) => {
-//   const songNames = songs.map((song) => song.name);
-//   res.status(200).json({
-//     status: "Success",
-//     data: {
-//       songNames: songNames,
-//     },
-//   });
-// };
+exports.createSong = async (req, res) => {
+  try {
+    const newSong = await Song.create(req.body);
+    res.status(201).json({
+      status: "success song created",
+      data: {
+        song: newSong,
+      },
+    });
+  } catch (err) {
+    res.status(400).json({
+      status: "error",
+      message: "Invalid data sent",
+    });
+  }
+};
 
-// exports.getSong = (req, res) => {
-//   const id = req.params.id;
-//   const song = songs.find((song) => song._id === id);
-//   console.log(song); // Undefined?TF
-
-//   res.status(200).json({
-//     status: "Success here is the song you are looking for!",
-//     data: {
-//       song: song,
-//     },
-//   });
+// exports.getSong = async (req, res) => {
+//   try {
+//     const song = await Song.findOne();
+//     status(200).json({
+//       status: "success",
+//     });
+//   } catch (err) {
+//     res.status(404).json({
+//       status: "failed to get specific song",
+//     });
+//   }
 // };
 
 // exports.getAllImages = (req, res) => {
