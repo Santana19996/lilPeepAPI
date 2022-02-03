@@ -6,7 +6,9 @@ const songsRouter = require("/Users/oscarsantana/LilPeepAPI/routes/musicRoute.js
 const app = express();
 
 // MiddleWare
-app.use(morgan("dev"));
+if (process.env.NODE_ENV === "development") {
+  app.use(morgan("dev"));
+}
 
 app.use(express.json());
 
