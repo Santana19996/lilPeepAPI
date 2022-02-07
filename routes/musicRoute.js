@@ -1,8 +1,10 @@
 const express = require("express");
 
-const musicController = require("/Users/oscarsantana/LilPeepAPI/Controllers/musicController.js");
+const musicController = require("../Controllers/musicController");
 
 const router = express.Router();
+
+router.route("/images").get(musicController.getImages);
 
 router
   .route("/")
